@@ -1,0 +1,349 @@
+@media screen and (orientation:portrait){
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Anton', sans-serif;
+        background-color: rgb(249, 245, 245);
+    }
+    .container{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .firstbox{
+        height: auto;
+        color: white;
+        background-color: rgb(20, 20, 89);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bharatsarkar{
+        color: white;
+        text-decoration: none;
+        font-family: 'Anton', sans-serif;;
+    }
+    .bharatsarkar:hover{
+        color: white;
+        text-decoration: underline;
+        font-family: 'Anton', sans-serif;
+    }
+    .firstboxchild {
+        /* margin-left: 45px; */
+        font-size: 13px;
+        /* padding-top: 2px; */
+        /* width: 20%; */
+    }
+    .firstboxchild1 {
+        font-size: 13px;
+        color: rgb(255, 255, 255);
+        margin-left: 5px;
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .secondbox{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo{
+        height: 60px;
+        width: 100px;
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .secondlogo{
+        margin-top: 15px;
+        margin-left: 50px;   
+    }
+    .secondlogoimg{
+        width: 60px;
+        height: 50px;
+    }
+    .heading{
+       margin-left: 5px;
+       margin-top: 35px;
+       font-size: 10px;
+       color: #c41010;
+       font-family: 'Anton', sans-serif;
+    }
+    .modiji{
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+    .modijiimg{
+        width: 50px;
+        height: 60px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        margin: 2px;
+    }
+    li{
+        margin: 4px;
+        display: flex;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .navbar{
+        height: auto;
+        width: 100%;
+        background-color: rgb(20, 20, 89);
+        color: white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        /* margin-left: -10px; */
+    }
+    .vl {
+        border-right: 1px solid rgb(255, 255, 255);
+        height: 35px;
+    }
+    .vl1 {
+        border-right: 1px solid rgb(255, 255, 255);
+        height: 27px;
+    }
+    .googleicon{
+        height: 16px;
+        width: 16px;
+        background-color: white;
+    }
+    .inputlang{
+       display: none;
+    }
+    .input-group{
+        display: flex;
+        text-align: center;
+    }
+    .paramarquee{
+        font-size: 14px;
+        color: #c41010;
+        font-weight: bold;
+    }
+    .btn1 {
+        height: 30px;
+        width: 300px;
+        border: 2px solid rgb(0, 132, 255);
+        margin-left: 10px;
+        border-radius: 25px;
+        cursor: pointer;
+        font-size: 15px;
+        color: rgb(0, 132, 255);
+        font-weight: bold;
+    }
+    .btn1:hover{
+        height: 38px;
+        width: 370px;
+        border: 2px solid #c41010;
+        margin-left: 70%;
+        border-radius: 25px;
+        cursor: pointer;
+        color: rgb(37, 37, 133);
+    }
+    .digitellogo{
+        height: 20px;
+        margin: -5px;
+    }
+    .buttona{
+        text-decoration: none;
+        color: rgb(0, 132, 255);
+        font-size: 13px;
+    }
+    .buttona:hover{
+        text-decoration: none;
+        color: rgb(37, 37, 133);
+    }
+    .mainbox {
+        height: auto;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 15px;
+        box-shadow: 7px 7px 7px 5px rgb(193, 193, 177)
+    }
+    .mainbox1{
+        height: auto;
+        width: 300px;
+        background-color: rgb(210, 210, 188);
+    }
+    .mainboxp{
+        margin-left: 15px;
+        color: rgb(20, 20, 89);
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 10px;
+        padding-top: 15px;
+    }
+    .mainboxhr{
+        width: 150px;
+        margin-left: 25px;
+    }
+    .aadhar{
+        display: flex;
+        font-size: 13px;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: -10px;
+    }
+    h4{
+        color: rgb(9, 9, 12);
+        margin-left: 25px;
+        margin-top: 0px;
+        font-size: 13px!important;
+    }
+    .hrforall{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .selfbtn {
+        height: 30px;
+        width: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+        margin-left: 5px;
+        color: white;
+        background-color: rgb(51, 146, 213);
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        font-size: 17px;
+        font-weight: bold;
+        box-shadow: 5px 5px 5px rgb(232, 149, 76);
+        text-shadow: 3px 3px 3px rgb(232, 149, 76);
+    }
+    .form{
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    .number{
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .inputnumber{
+        height: 20px;
+        width: 120px;
+        margin-top: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    .star{
+       color: #ea0505;  
+    }
+    .captcha{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .captchaimg {
+        width: 100px;
+        height: 20px;
+        /* margin-top: 10px; */
+        margin-left: 60px;
+    }
+    .captchadiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .reload {
+        color: #0fa6e4;
+        margin-top: 5px;
+        margin-left: 110px;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .inputcaptcha{
+        height: 25px;
+        width: 90px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin-top: -15px;
+        margin-left: 65px;
+    }
+    .member{
+        font-weight: bold;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .checkbox{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: -15px;
+        padding-top: 10px;
+    }
+    .note{
+        display: flex;
+        color: green;
+        font-size: 12px;
+        margin-top: -1%;
+    }
+    .hnote{
+        font-size: 14px;
+        margin-top: 11px;
+    }
+    .eligible{
+        font-size: 13px;
+        color: rgb(255, 5, 5);
+        font-weight: bold;
+        margin-top: 0px;
+    }
+    .sendbtn {
+        height: 25px;
+        width: 70px;
+        font-size: 12px;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: white;
+        background-color: rgb(177, 177, 177);
+        border: none;
+    }
+    .photo{
+        margin-top: 20px;
+        padding-top: 10px;
+        /* margin-left: 68px; */
+        height: auto;
+        /* width: 1370px; */
+        background-color: white;
+        box-shadow: 2px 2px 2px rgb(211, 206, 206);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .imglogo{
+        height: 80px;
+        margin: 10px;
+    }
+    .lastfooter{
+        background-color: rgb(11, 11, 132);
+        height: auto;
+        margin-top: 30px;
+    }
+    .footerh4{
+        color: white;
+        padding-top: 15px;
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    .footerh5{
+        color: rgb(255, 200, 0);
+        font-weight: bold;
+        font-size: 14px;
+        margin-left: 20px;
+        margin-top: 3px;
+    }
+}
