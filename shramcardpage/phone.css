@@ -131,7 +131,7 @@
         height: 30px;
         width: 300px;
         border: 2px solid rgb(0, 132, 255);
-        margin-left: 10px;
+        margin-left: 15px;
         border-radius: 25px;
         cursor: pointer;
         font-size: 15px;
@@ -165,7 +165,7 @@
         width: 300px;
         display: flex;
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 15px;
         margin-top: 15px;
         box-shadow: 7px 7px 7px 5px rgb(193, 193, 177)
     }
@@ -175,7 +175,7 @@
         background-color: rgb(210, 210, 188);
     }
     .mainboxp{
-        margin-left: 15px;
+        margin-left: 20px;
         color: rgb(20, 20, 89);
         font-size: 15px;
         font-weight: bold;
