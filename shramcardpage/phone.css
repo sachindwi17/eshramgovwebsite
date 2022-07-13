@@ -90,6 +90,10 @@
         text-decoration: none;
         cursor: pointer;
     }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
     .navbar{
         height: auto;
         width: 100%;

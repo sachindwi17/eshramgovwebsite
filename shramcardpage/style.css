@@ -78,6 +78,10 @@
         text-decoration: none;
         cursor: pointer;
     }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+    }
     .navbar{
         height: 35px;
         width: 100%;
